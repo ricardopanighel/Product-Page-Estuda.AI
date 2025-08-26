@@ -84,10 +84,13 @@ const CTA = () => {
               href="https://go.hotmart.com/S101572562X?dp=1"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex justify-center"
             >
-              <Button className="btn-hero text-xl px-12 py-6 mb-6">
-                Quero Acelerar Meus Estudos Agora
-                <ArrowRight className="w-6 h-6 ml-2" />
+              <Button className="btn-hero text-lg md:text-xl px-4 md:px-12 py-6 md:py-6 mb-6 w-full md:w-auto max-w-xs md:max-w-none flex items-center gap-2 whitespace-normal overflow-hidden text-ellipsis text-center">
+                <span className="whitespace-normal break-words w-full text-center overflow-hidden text-ellipsis">
+                  Quero Acelerar Meus Estudos Agora
+                </span>
+                <ArrowRight className="w-5 h-5 md:w-6 md:h-6 shrink-0" />
               </Button>
             </a>
 
