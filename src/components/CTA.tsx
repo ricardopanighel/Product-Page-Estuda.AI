@@ -86,7 +86,7 @@ const CTA = () => {
               rel="noopener noreferrer"
               className="flex justify-center"
             >
-              <Button className="btn-hero text-lg md:text-xl px-4 md:px-12 py-6 md:py-6 mb-6 w-full md:w-auto max-w-xs md:max-w-none flex items-center gap-2 whitespace-normal overflow-hidden text-ellipsis text-center">
+              <Button className="btn-hero text-lg md:text-xl px-4 md:px-12 py-5 md:py-6 mb-6 w-full md:w-auto max-w-xs md:max-w-none flex items-center gap-2 whitespace-normal overflow-hidden text-ellipsis text-center">
                 <span className="whitespace-normal break-words w-full text-center overflow-hidden text-ellipsis">
                   Quero Acelerar Meus Estudos Agora
                 </span>
